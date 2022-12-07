@@ -8,3 +8,4 @@ class GameStats:
     def reset_stats(self):
         self.ships_left = self.settings.ships_limit
         self.score = 0
+        self.level = 1
